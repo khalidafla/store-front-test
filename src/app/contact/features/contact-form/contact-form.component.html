@@ -1,0 +1,38 @@
+<h1 class="text-center">Contact</h1>
+
+<div class="message-block">
+    <p-messages [(value)]="messages" [enableService]="false" />
+</div>
+
+<form class="contact-form" [formGroup]="contactForm" (ngSubmit)="sendForm()" novalidate>
+    <div class="field">
+        <label for="email" class="block">Email</label>
+        <input type="text" pInputText formControlName="email" />
+        <small class="p-error block" *ngIf="
+            contactForm.get('email')?.hasError('required') && contactForm.get('email')?.dirty
+            ">
+            Le mail est obligatoire
+        </small>
+        <small class="p-error block" *ngIf="
+            contactForm.get('email')?.hasError('email') && contactForm.get('email')?.dirty
+            ">
+            Le mail n'est pas valid
+        </small>
+    </div>
+    <div class="field">
+        <label for="message" class="block">Message</label>
+        <textarea rows="5" cols="30" pInputTextarea formControlName="message" [autoResize]="true"></textarea>
+        <small class="p-error block" *ngIf="
+            contactForm.get('message')?.hasError('required') && contactForm.get('message')?.dirty
+            ">
+            Le message est obligatoire
+        </small>
+        <small class="p-error block" *ngIf="
+            contactForm.get('message')?.hasError('minlength') && contactForm.get('message')?.dirty
+            ">
+            {{contactForm.get('message')?.value?.length}} / 300 caractères min
+        </small>
+    </div>
+
+    <button pButton type="submit" label="Envoyer" [disabled]="contactForm.invalid"></button>
+</form>

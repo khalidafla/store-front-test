@@ -1,0 +1,121 @@
+{
+  "configVersion": 1,
+  "timestamp": 1731454023040,
+  "index": "/store-front-test/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/store-front-test/default-node_modules_primeng_fesm2022_primeng-icons-check_mjs-node_modules_primeng_fesm2022_p-4d1c2d.js",
+        "/store-front-test/favicon.ico",
+        "/store-front-test/index.html",
+        "/store-front-test/main.js",
+        "/store-front-test/manifest.webmanifest",
+        "/store-front-test/mdc-dark-deeppurple.css",
+        "/store-front-test/mdc-light-deeppurple.css",
+        "/store-front-test/polyfills.js",
+        "/store-front-test/runtime.js",
+        "/store-front-test/scripts.js",
+        "/store-front-test/src_app_contact_contact_routes_ts.js",
+        "/store-front-test/src_app_products_products_routes_ts.js",
+        "/store-front-test/styles.css",
+        "/store-front-test/vendor.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/store-front-test/assets/icons/icon-128x128.png",
+        "/store-front-test/assets/icons/icon-144x144.png",
+        "/store-front-test/assets/icons/icon-152x152.png",
+        "/store-front-test/assets/icons/icon-192x192.png",
+        "/store-front-test/assets/icons/icon-384x384.png",
+        "/store-front-test/assets/icons/icon-512x512.png",
+        "/store-front-test/assets/icons/icon-72x72.png",
+        "/store-front-test/assets/icons/icon-96x96.png",
+        "/store-front-test/assets/products.json",
+        "/store-front-test/color.png",
+        "/store-front-test/hue.png",
+        "/store-front-test/primeicons.svg",
+        "/store-front-test/primeicons.ttf",
+        "/store-front-test/primeicons.woff",
+        "/store-front-test/primeicons.woff2",
+        "/store-front-test/roboto-v20-latin-ext_latin-500.woff",
+        "/store-front-test/roboto-v20-latin-ext_latin-500.woff2",
+        "/store-front-test/roboto-v20-latin-ext_latin-700.woff",
+        "/store-front-test/roboto-v20-latin-ext_latin-700.woff2",
+        "/store-front-test/roboto-v20-latin-ext_latin-regular.woff",
+        "/store-front-test/roboto-v20-latin-ext_latin-regular.woff2"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/store-front-test/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/store-front-test/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/store-front-test/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/store-front-test/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/store-front-test/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/store-front-test/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/store-front-test/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/store-front-test/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/store-front-test/assets/products.json": "7563160fb60465df0bbcb445760fc371972238d9",
+    "/store-front-test/color.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
+    "/store-front-test/default-node_modules_primeng_fesm2022_primeng-icons-check_mjs-node_modules_primeng_fesm2022_p-4d1c2d.js": "00bc1d76ed3fdac86da30a8bd87b513ea2a8e001",
+    "/store-front-test/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/store-front-test/hue.png": "f81ae627637a684614aa726e206c73ce099a01fd",
+    "/store-front-test/index.html": "b459c3905d49603778e3359a307d4b65c0618316",
+    "/store-front-test/main.js": "88d4a832b4766d6fa56f46ace7a99beb1c707064",
+    "/store-front-test/manifest.webmanifest": "ecde7965543a84547609aefbe03c8da667a1aec8",
+    "/store-front-test/mdc-dark-deeppurple.css": "8369afbb7c4420fd22b75b8f60c206208b7a63de",
+    "/store-front-test/mdc-light-deeppurple.css": "fbcd21d8c0e566d8e1553d4386e8492ee9665a8c",
+    "/store-front-test/polyfills.js": "47b3893af537bebb038b9967c867ac60adcde665",
+    "/store-front-test/primeicons.svg": "a07ae39027c1a780b42fd82fad7575c2924d9d28",
+    "/store-front-test/primeicons.ttf": "3b878ca7e88945a8ec25814810b95367d8977ae6",
+    "/store-front-test/primeicons.woff": "361e3af71bb4e515feead2f787348a92a5527158",
+    "/store-front-test/primeicons.woff2": "837c1279b6af9d297f34fdb43e6fcc9206a79f32",
+    "/store-front-test/roboto-v20-latin-ext_latin-500.woff": "ff5213b69a5c62c3a33bdfcd71b9be121e5858db",
+    "/store-front-test/roboto-v20-latin-ext_latin-500.woff2": "6266cfccbd3281630cd4ba6d7dfd953999268480",
+    "/store-front-test/roboto-v20-latin-ext_latin-700.woff": "47950a5a898a662ff110c52d2b53d9d3f5e224cf",
+    "/store-front-test/roboto-v20-latin-ext_latin-700.woff2": "789d6227065d5d9767bc094e8fb384a26009c9de",
+    "/store-front-test/roboto-v20-latin-ext_latin-regular.woff": "c574d647bbf9412b82b0cdcb0e702a3a93ffd022",
+    "/store-front-test/roboto-v20-latin-ext_latin-regular.woff2": "a39cd33a2457d12a3eb61e0841c91b73e4af90ac",
+    "/store-front-test/runtime.js": "604c0969c05a2196d1dfe41699886c194b3a4485",
+    "/store-front-test/scripts.js": "0e1b9d4fdca316959b8b17cbb6bfd97e110a6ff6",
+    "/store-front-test/src_app_contact_contact_routes_ts.js": "6919cab53ed7b54144513f1e7b1c6339fcf7ff86",
+    "/store-front-test/src_app_products_products_routes_ts.js": "c3d3e9d3b955da34ae83b594e844e1d255fe61f9",
+    "/store-front-test/styles.css": "988f6141d1c4bf1fb3e4816c068154679c9fc65f",
+    "/store-front-test/vendor.js": "d016c68cd475d463de500f8ee8d0f0f197af0b3b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
